@@ -1,0 +1,131 @@
+(footprint "LM2596-MOD"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a53ce878-94ad-4592-ba75-0f645eeb670f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "LM2596-MOD"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "98fe37a6-bde4-437a-8b86-e709313deaaf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "13881571-a0d2-4c3b-933e-13aa8bf99988")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "324a46c0-971d-44bd-9412-ece675393b72")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start 0 0)
+		(end 43 21)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "02e26a36-bc5b-4ccc-86ff-60cf88eb1561")
+	)
+	(fp_text user "DC-DC"
+		(at 21 12 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "16740c6f-8bd9-4949-b57d-60f1d794cf22")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "BUCK"
+		(at 20.5 8.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2b48a2cb-b3d9-4c0b-84b3-22973c4875b8")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "IN"
+		(at 3 10.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2c66d79b-a4ba-4bc0-b3d3-59475e93d0af")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+			)
+		)
+	)
+	(fp_text user "OUT"
+		(at 39 10.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "de4324b9-b21c-472f-b8bb-926ad8aab247")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4ae03dcf-05e3-41ef-8219-787d7c0cf775")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

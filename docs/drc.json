@@ -1,0 +1,1635 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-07T16:26:48",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "key": "pth_inside_courtyard"
+        },
+        {
+            "description": "NPTH inside courtyard",
+            "key": "npth_inside_courtyard"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.5",
+    "schematic_parity": [],
+    "source": "God_of_cheeseLFR.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Footprint 'SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm' does not match copy in library 'Button_Switch_THT'",
+            "items": [
+                {
+                    "description": "Footprint Switch",
+                    "pos": {
+                        "x": 102.155,
+                        "y": 118.21
+                    },
+                    "uuid": "2afb2af2-309a-48f1-a1b4-b1a8617a2bee"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_Disc_D5.0mm_W2.5mm_P2.50mm' does not match copy in library 'Capacitor_THT'",
+            "items": [
+                {
+                    "description": "Footprint Dio",
+                    "pos": {
+                        "x": 137.2,
+                        "y": 120.6
+                    },
+                    "uuid": "41fa67ed-17c8-40a8-a77d-c2b9fd43c66f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'bless5' does not match copy in library 'cheese_bless'",
+            "items": [
+                {
+                    "description": "Footprint G***",
+                    "pos": {
+                        "x": 74.03,
+                        "y": 73.217471
+                    },
+                    "uuid": "4508710f-307e-482a-a958-b505422419d1"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'cheseee2' does not match copy in library 'rat_cheese_bully'",
+            "items": [
+                {
+                    "description": "Footprint G***",
+                    "pos": {
+                        "x": 182.31,
+                        "y": 83.27
+                    },
+                    "uuid": "71f38795-cb4c-4a05-b881-bc63fda41862"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'Bat_con' does not match copy in library 'Library1'",
+            "items": [
+                {
+                    "description": "Footprint Ba_con",
+                    "pos": {
+                        "x": 101.94,
+                        "y": 120.81
+                    },
+                    "uuid": "78e0816d-1ddc-4fa4-bf89-5bda1ae6fed3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_Disc_D5.0mm_W2.5mm_P2.50mm' does not match copy in library 'Capacitor_THT'",
+            "items": [
+                {
+                    "description": "Footprint R2",
+                    "pos": {
+                        "x": 148.9,
+                        "y": 117.0
+                    },
+                    "uuid": "87b8e30f-ced9-4de2-99e7-b522a9f8bf9d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'YD-ESP32-S3' does not match copy in library 'ESP32-S3'",
+            "items": [
+                {
+                    "description": "Footprint U6",
+                    "pos": {
+                        "x": 150.64,
+                        "y": 65.25
+                    },
+                    "uuid": "b0b176a0-148b-4712-bdd0-4c05582bf92f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_Disc_D5.0mm_W2.5mm_P2.50mm' does not match copy in library 'Capacitor_THT'",
+            "items": [
+                {
+                    "description": "Footprint R1",
+                    "pos": {
+                        "x": 152.7,
+                        "y": 116.7
+                    },
+                    "uuid": "b4e04996-fc60-4c4b-a6aa-1c91a28093a7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'DRV8833' does not match copy in library 'Library1'",
+            "items": [
+                {
+                    "description": "Footprint DRV8833",
+                    "pos": {
+                        "x": 124.21,
+                        "y": 105.37
+                    },
+                    "uuid": "ca4a08ad-bcd0-4978-a616-d3984b45b052"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'Buck_converter' does not match copy in library 'Library1'",
+            "items": [
+                {
+                    "description": "Footprint Bucky",
+                    "pos": {
+                        "x": 104.33,
+                        "y": 103.34
+                    },
+                    "uuid": "f7a2aa00-c217-40ed-81e5-4e929673eae7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint '2x12 conn' does not match copy in library 'Library1'",
+            "items": [
+                {
+                    "description": "Footprint J3",
+                    "pos": {
+                        "x": 137.495,
+                        "y": 57.76
+                    },
+                    "uuid": "fb0fe454-da31-4f17-ab5e-7375b1fe5fc0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_Disc_D5.0mm_W2.5mm_P2.50mm' does not match copy in library 'Capacitor_THT'",
+            "items": [
+                {
+                    "description": "Footprint C3",
+                    "pos": {
+                        "x": 112.97,
+                        "y": 105.85
+                    },
+                    "uuid": "f60d8497-a402-496a-9ffb-199e5b055655"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of U6 (GND)",
+                    "pos": {
+                        "x": 95.39,
+                        "y": 90.68
+                    },
+                    "uuid": "d9a91ee8-5fb8-4861-a7ef-6ac42ca1aaf7"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of U6 (GND)",
+                    "pos": {
+                        "x": 95.39272,
+                        "y": 68.07032
+                    },
+                    "uuid": "a190eb2c-04e8-467a-b4ec-44c131d24e90"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of U6 (GND)",
+                    "pos": {
+                        "x": 97.93,
+                        "y": 90.68
+                    },
+                    "uuid": "e0c6714f-3c33-439c-b89a-134dc61ff9ff"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of U6 (5V)",
+                    "pos": {
+                        "x": 97.93272,
+                        "y": 68.07032
+                    },
+                    "uuid": "88cb4e80-50cb-4f6b-b2e5-6ce64f82c3e6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of U6 (GPIO14)",
+                    "pos": {
+                        "x": 100.47,
+                        "y": 67.82
+                    },
+                    "uuid": "22db744c-bcb2-4588-a96e-de63c29d5de2"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of U6 (GPIO19)",
+                    "pos": {
+                        "x": 100.47,
+                        "y": 90.68
+                    },
+                    "uuid": "8021a31e-b646-4940-94bb-61cb16c7bc2b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of U6 (GPIO13)",
+                    "pos": {
+                        "x": 103.01,
+                        "y": 67.82
+                    },
+                    "uuid": "7023ba7d-d2ca-444a-b495-a185e5b1795a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of U6 (GPIO20)",
+                    "pos": {
+                        "x": 103.01,
+                        "y": 90.68
+                    },
+                    "uuid": "2309ec57-d572-45b7-81a1-2d4ff38913fb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of U6 (GPIO21)",
+                    "pos": {
+                        "x": 105.55,
+                        "y": 90.68
+                    },
+                    "uuid": "36095447-6b88-4237-a644-9aa64a5bb12a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of U6 (GPIO47)",
+                    "pos": {
+                        "x": 108.09,
+                        "y": 90.68
+                    },
+                    "uuid": "d53808d6-adcf-4b5f-8789-37cd47b8843b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Value field of U6 (ESP32-S3)",
+                    "pos": {
+                        "x": 120.98,
+                        "y": 78.55
+                    },
+                    "uuid": "920b340f-cd63-4435-baf0-6227054fbac2"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of U6 (GPIO3)",
+                    "pos": {
+                        "x": 118.25,
+                        "y": 67.82
+                    },
+                    "uuid": "c8e1eb38-7bf8-42cc-af72-29edc17217a4"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of U6 (GPIO8)",
+                    "pos": {
+                        "x": 120.79,
+                        "y": 67.82
+                    },
+                    "uuid": "ddb1570f-e67b-46df-8a6d-a51f38cd45c6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of U6 (GPIO18)",
+                    "pos": {
+                        "x": 123.33,
+                        "y": 67.82
+                    },
+                    "uuid": "d7c2f84f-332c-40b3-a367-ecd9c27a7ecb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of U6 (GPIO36)",
+                    "pos": {
+                        "x": 120.79,
+                        "y": 90.68
+                    },
+                    "uuid": "a3d71944-ffaf-48b4-9979-31df3c6f2abe"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of U6 (GPIO37)",
+                    "pos": {
+                        "x": 123.33,
+                        "y": 90.68
+                    },
+                    "uuid": "5d8eba54-d866-47e8-933f-0f88394f35ce"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of U6 (GPIO35)",
+                    "pos": {
+                        "x": 118.25,
+                        "y": 90.68
+                    },
+                    "uuid": "1855eb3a-8990-471c-9032-122c13f67132"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of U6 (GPIO0)",
+                    "pos": {
+                        "x": 115.71,
+                        "y": 90.68
+                    },
+                    "uuid": "50762242-2ed9-42e3-99c5-4f3c53998e1d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of U6 on F.Silkscreen",
+                    "pos": {
+                        "x": 150.64,
+                        "y": 65.25
+                    },
+                    "uuid": "71d81ab3-4c5e-40b6-a880-b67bd82ceccf"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Rectangle of U6 on F.Silkscreen",
+                    "pos": {
+                        "x": 150.64,
+                        "y": 69.25
+                    },
+                    "uuid": "6326855c-9127-4a86-8eca-4d9c70fd288c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of U6 (GPIO12)",
+                    "pos": {
+                        "x": 105.55,
+                        "y": 67.82
+                    },
+                    "uuid": "4b49ae19-13e4-43b8-9044-4819ba00f4b5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of U6 (GPIO48)",
+                    "pos": {
+                        "x": 110.63,
+                        "y": 90.68
+                    },
+                    "uuid": "1705cd54-0227-4182-8567-ea9b8408265c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of U6 (GPIO45)",
+                    "pos": {
+                        "x": 113.17,
+                        "y": 90.68
+                    },
+                    "uuid": "d74bbd41-01e5-4d52-bd6f-a36ee68c5b4c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of U6 (GPIO11)",
+                    "pos": {
+                        "x": 108.09,
+                        "y": 67.82
+                    },
+                    "uuid": "087825d2-cc02-4f7d-bc02-c1dee669b9c6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of U6 (GPIO10)",
+                    "pos": {
+                        "x": 110.63,
+                        "y": 67.82
+                    },
+                    "uuid": "b9d336b1-6168-4faf-8a97-4a837a762052"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of U6 (GPIO9)",
+                    "pos": {
+                        "x": 113.17,
+                        "y": 67.82
+                    },
+                    "uuid": "50adc791-c7d3-48e2-b1a2-d200a385be39"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of U6 (GPIO46)",
+                    "pos": {
+                        "x": 115.71,
+                        "y": 67.82
+                    },
+                    "uuid": "eacc85a5-6853-459d-8ffb-296ad6031369"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of U6 (GPIO17)",
+                    "pos": {
+                        "x": 125.87,
+                        "y": 67.82
+                    },
+                    "uuid": "4b43e28b-95ad-4069-94b2-6a96afb52247"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of U6 (GPIO38)",
+                    "pos": {
+                        "x": 125.87,
+                        "y": 90.68
+                    },
+                    "uuid": "74c7fef8-5569-4fdb-94a1-cf766c7550d6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of U6 (GPIO41/MTDI)",
+                    "pos": {
+                        "x": 133.49,
+                        "y": 90.68
+                    },
+                    "uuid": "6574ed51-f0da-4a56-b416-565a3dd7a3fd"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of U6 (GPIO42/MTMS)",
+                    "pos": {
+                        "x": 136.03,
+                        "y": 90.68
+                    },
+                    "uuid": "cfa2218b-d8d7-4a68-aeae-5ddd86d09b36"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of U6 (GPIO43/U0TXD)",
+                    "pos": {
+                        "x": 146.19,
+                        "y": 90.68
+                    },
+                    "uuid": "27c2d25b-29eb-40bb-bd5b-0048cb5c26da"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of U6 on F.Silkscreen",
+                    "pos": {
+                        "x": 93.64,
+                        "y": 65.25
+                    },
+                    "uuid": "21ee8ea8-44dc-4cce-8b09-51b5e36e9beb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of U6 on F.Silkscreen",
+                    "pos": {
+                        "x": 93.64,
+                        "y": 93.25
+                    },
+                    "uuid": "fad44ed0-921e-41ab-bb09-86d603492f39"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of U6 on F.Silkscreen",
+                    "pos": {
+                        "x": 150.64,
+                        "y": 93.25
+                    },
+                    "uuid": "19c7d103-0b15-44b8-9de0-7d6046f335d6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of U6 (GPIO4)",
+                    "pos": {
+                        "x": 141.11,
+                        "y": 67.82
+                    },
+                    "uuid": "2f721aa1-6747-4a09-a71b-012ceb350b87"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of U6 (GPIO1)",
+                    "pos": {
+                        "x": 141.11,
+                        "y": 90.68
+                    },
+                    "uuid": "7ab754e2-7db2-43a8-9d05-64c5d88ae72a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of U6 (3V3)",
+                    "pos": {
+                        "x": 146.19,
+                        "y": 67.82
+                    },
+                    "uuid": "fe222c03-7700-4f40-97f8-eb47a8f857b6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of U6 (3V3)",
+                    "pos": {
+                        "x": 148.73,
+                        "y": 67.82
+                    },
+                    "uuid": "97521082-bf50-4a41-988b-a2cc00f4b12c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of U6 (GND)",
+                    "pos": {
+                        "x": 148.73,
+                        "y": 90.68
+                    },
+                    "uuid": "32b271f3-a7d1-469c-8c49-f1ce0d3601ca"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of U6 (GPIO44/U0RXD)",
+                    "pos": {
+                        "x": 143.65,
+                        "y": 90.68
+                    },
+                    "uuid": "9854b4f2-d4a3-4f3c-89e2-a74458a81d5f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of U6 (RST)",
+                    "pos": {
+                        "x": 143.58,
+                        "y": 70.8
+                    },
+                    "uuid": "136e9f04-3030-42cd-8cdf-8bdf77f2d4f5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of U6 (GPIO16)",
+                    "pos": {
+                        "x": 128.41,
+                        "y": 67.82
+                    },
+                    "uuid": "376ea17d-ffe9-40aa-b9b6-f19bd3da5a1d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of U6 (GPIO15)",
+                    "pos": {
+                        "x": 130.95,
+                        "y": 67.82
+                    },
+                    "uuid": "d242f983-595e-4222-bb8b-97f4b5b82b01"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of U6 (GPIO39/MTCK)",
+                    "pos": {
+                        "x": 128.41,
+                        "y": 90.68
+                    },
+                    "uuid": "ebf0abc5-c5e2-47af-8949-1edc7100be69"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of U6 (GPIO40/MTDO)",
+                    "pos": {
+                        "x": 130.95,
+                        "y": 90.68
+                    },
+                    "uuid": "eb7ac89d-f23d-488f-be60-b0e23205e6ea"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of U6 (GPIO7)",
+                    "pos": {
+                        "x": 133.49,
+                        "y": 67.82
+                    },
+                    "uuid": "8b7d09a4-621e-4431-a0fe-09d82a1b4160"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of U6 (GPIO6)",
+                    "pos": {
+                        "x": 136.03,
+                        "y": 67.82
+                    },
+                    "uuid": "22d2399f-aa1d-445d-a67c-5ddaa45d5a9a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of U6 (GPIO5)",
+                    "pos": {
+                        "x": 138.57,
+                        "y": 67.82
+                    },
+                    "uuid": "604a217f-b8c4-49e6-8d24-67cb6fa3ed38"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of U6 (GPIO2)",
+                    "pos": {
+                        "x": 138.57,
+                        "y": 90.68
+                    },
+                    "uuid": "31cb723b-a966-4f34-9f0f-626d7717dadf"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PTH pad 43 [unconnected-(U6-GPIO43-Pad43)] of U6",
+                    "pos": {
+                        "x": 146.19,
+                        "y": 91.95
+                    },
+                    "uuid": "d36af32a-030c-45d9-938d-21fa6fd6d04f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PTH pad 44 [GND] of U6",
+                    "pos": {
+                        "x": 148.73,
+                        "y": 91.95
+                    },
+                    "uuid": "9889b93b-6f79-4968-922e-e6cf0497f1a3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PTH pad 8 [/SEN7] of U6",
+                    "pos": {
+                        "x": 130.95,
+                        "y": 66.55
+                    },
+                    "uuid": "b7ffed31-ff84-4c82-94b2-3c1ee6e45de6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PTH pad 9 [/SEN9] of U6",
+                    "pos": {
+                        "x": 128.41,
+                        "y": 66.55
+                    },
+                    "uuid": "4c7dc87e-67f3-49b1-94c8-1988acaee008"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PTH pad 10 [/SEN11] of U6",
+                    "pos": {
+                        "x": 125.87,
+                        "y": 66.55
+                    },
+                    "uuid": "1ef4fea5-cabf-4768-872d-8221108ad27e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PTH pad 11 [/SEN13] of U6",
+                    "pos": {
+                        "x": 123.33,
+                        "y": 66.55
+                    },
+                    "uuid": "5f67414b-c3e7-4d14-844a-231aa7627791"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PTH pad 12 [/SEN15] of U6",
+                    "pos": {
+                        "x": 120.79,
+                        "y": 66.55
+                    },
+                    "uuid": "4c93f67f-8e6f-4880-afa1-0238a0e57ba2"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PTH pad 13 [unconnected-(U6-GPIO3-Pad13)] of U6",
+                    "pos": {
+                        "x": 118.25,
+                        "y": 66.55
+                    },
+                    "uuid": "dcc1a340-033e-49cf-8d08-37b073110897"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PTH pad 1 [+3V3] of U6",
+                    "pos": {
+                        "x": 148.73,
+                        "y": 66.55
+                    },
+                    "uuid": "79c7e82d-27df-491f-9551-f0e08d7e57c0"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PTH pad 2 [+3V3] of U6",
+                    "pos": {
+                        "x": 146.19,
+                        "y": 66.55
+                    },
+                    "uuid": "33904b5f-7f1d-4826-bf6e-5431471a8d4a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PTH pad 3 [unconnected-(U6-RST-Pad3)] of U6",
+                    "pos": {
+                        "x": 143.65,
+                        "y": 66.55
+                    },
+                    "uuid": "bec68697-cd06-4a0b-8a62-7ff2e562f0bd"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PTH pad 4 [/BAT_LEVEL] of U6",
+                    "pos": {
+                        "x": 141.11,
+                        "y": 66.55
+                    },
+                    "uuid": "dc705d4a-af64-411d-b99b-f1e92091d046"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PTH pad 5 [/SEN1] of U6",
+                    "pos": {
+                        "x": 138.57,
+                        "y": 66.55
+                    },
+                    "uuid": "1e25e454-b4d5-44f1-9f5a-22e535050c73"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PTH pad 6 [/SEN3] of U6",
+                    "pos": {
+                        "x": 136.03,
+                        "y": 66.55
+                    },
+                    "uuid": "1228b3f2-9d40-4f8a-9eb5-83f56f83a443"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PTH pad 7 [/SEN5] of U6",
+                    "pos": {
+                        "x": 133.49,
+                        "y": 66.55
+                    },
+                    "uuid": "158014aa-b95e-4140-8e52-93078c2c7cdc"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PTH pad 14 [unconnected-(U6-GPIO46-Pad14)] of U6",
+                    "pos": {
+                        "x": 115.71,
+                        "y": 66.55
+                    },
+                    "uuid": "36f3102c-858f-4996-a5f7-c32e52b02446"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PTH pad 16 [/SEN16] of U6",
+                    "pos": {
+                        "x": 113.17,
+                        "y": 66.55
+                    },
+                    "uuid": "a25b2024-ba15-46fd-a343-15a9b8afe217"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PTH pad 15 [/SEN14] of U6",
+                    "pos": {
+                        "x": 110.63,
+                        "y": 66.55
+                    },
+                    "uuid": "da8738e4-d868-4f2c-94d4-d662e3c29904"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PTH pad 17 [/AIN1] of U6",
+                    "pos": {
+                        "x": 108.09,
+                        "y": 66.55
+                    },
+                    "uuid": "65a90545-f9e9-4ec7-9c31-c7e6635395ef"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PTH pad 18 [/AIN2] of U6",
+                    "pos": {
+                        "x": 105.55,
+                        "y": 66.55
+                    },
+                    "uuid": "9b65be6b-c93d-46e9-b02b-7f48e3617e05"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PTH pad 19 [/BIN1] of U6",
+                    "pos": {
+                        "x": 103.01,
+                        "y": 66.55
+                    },
+                    "uuid": "352d31d0-d7e3-4246-b22a-9e113002f61e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PTH pad 20 [/BIN2] of U6",
+                    "pos": {
+                        "x": 100.47272,
+                        "y": 66.54632
+                    },
+                    "uuid": "ee42e73a-1bbb-43f6-a59b-2096ee5b16a1"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PTH pad 21 [unconnected-(U6-5V-Pad21)] of U6",
+                    "pos": {
+                        "x": 97.93272,
+                        "y": 66.54632
+                    },
+                    "uuid": "f0f6eea2-d275-4e65-8476-d39cf1b8ad9a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PTH pad 22 [GND] of U6",
+                    "pos": {
+                        "x": 95.39272,
+                        "y": 66.54632
+                    },
+                    "uuid": "3e06d806-6165-4140-936f-ff2fdce1540b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PTH pad 39 [/SEN6] of U6",
+                    "pos": {
+                        "x": 136.03,
+                        "y": 91.95
+                    },
+                    "uuid": "ad09f7e9-b5fb-4940-ac97-60b750b5a598"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PTH pad 40 [/SEN4] of U6",
+                    "pos": {
+                        "x": 138.57,
+                        "y": 91.95
+                    },
+                    "uuid": "73993483-18d7-4bf3-9ce0-04aa4d39e06e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PTH pad 41 [/SEN2] of U6",
+                    "pos": {
+                        "x": 141.11,
+                        "y": 91.95
+                    },
+                    "uuid": "4375de9c-bf52-4eb6-b06e-c84f3ed27d89"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PTH pad 42 [unconnected-(U6-GPIO44-Pad42)] of U6",
+                    "pos": {
+                        "x": 143.65,
+                        "y": 91.95
+                    },
+                    "uuid": "33903151-1af7-41ec-8090-7e3108d46083"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PTH pad 23 [GND] of U6",
+                    "pos": {
+                        "x": 95.39,
+                        "y": 91.95
+                    },
+                    "uuid": "775ebd0f-e7ef-486d-b39b-ad99a7f421f5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PTH pad 24 [GND] of U6",
+                    "pos": {
+                        "x": 97.93,
+                        "y": 91.95
+                    },
+                    "uuid": "26c25f66-e03c-4135-8bb9-1f31e282a09f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PTH pad 25 [unconnected-(U6-GPIO19-Pad25)] of U6",
+                    "pos": {
+                        "x": 100.47,
+                        "y": 91.95
+                    },
+                    "uuid": "731c19a1-5107-4b9e-b999-0620f4f4f86f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PTH pad 26 [unconnected-(U6-GPIO20-Pad26)] of U6",
+                    "pos": {
+                        "x": 103.01,
+                        "y": 91.95
+                    },
+                    "uuid": "cae3b006-2b27-4071-9ec3-e1d1152cbfd4"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PTH pad 27 [unconnected-(U6-GPIO21-Pad27)] of U6",
+                    "pos": {
+                        "x": 105.55,
+                        "y": 91.95
+                    },
+                    "uuid": "7fba434a-0447-4119-a208-7524bb6e56a0"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PTH pad 28 [/SEN12] of U6",
+                    "pos": {
+                        "x": 108.09,
+                        "y": 91.95
+                    },
+                    "uuid": "179261c3-fa77-4660-89d4-e3338c626fb6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PTH pad 29 [unconnected-(U6-GPIO48-Pad29)] of U6",
+                    "pos": {
+                        "x": 110.63,
+                        "y": 91.95
+                    },
+                    "uuid": "9167f784-cb92-426c-acc2-093e767dabac"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PTH pad 30 [unconnected-(U6-GPIO45-Pad30)] of U6",
+                    "pos": {
+                        "x": 113.17,
+                        "y": 91.95
+                    },
+                    "uuid": "6a89ebef-47d0-4652-b27c-da6a46fb4a40"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PTH pad 37 [/SEN10] of U6",
+                    "pos": {
+                        "x": 130.95,
+                        "y": 91.95
+                    },
+                    "uuid": "953a867b-8b40-4afd-8e08-194ea83f6250"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PTH pad 38 [/SEN8] of U6",
+                    "pos": {
+                        "x": 133.49,
+                        "y": 91.95
+                    },
+                    "uuid": "96427c2c-c705-4391-8771-5520de462dfb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PTH pad 31 [unconnected-(U6-GPIO0-Pad31)] of U6",
+                    "pos": {
+                        "x": 115.71,
+                        "y": 91.95
+                    },
+                    "uuid": "daeea564-daf8-4533-bb42-e525c767f23c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PTH pad 32 [unconnected-(U6-GPIO35-Pad32)] of U6",
+                    "pos": {
+                        "x": 118.25,
+                        "y": 91.95
+                    },
+                    "uuid": "cdd3620f-d5ce-4d04-a067-1325b039fa4b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PTH pad 33 [unconnected-(U6-GPIO36-Pad33)] of U6",
+                    "pos": {
+                        "x": 120.79,
+                        "y": 91.95
+                    },
+                    "uuid": "2253d5e4-4d14-407e-8e59-1dab77e8b726"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PTH pad 34 [unconnected-(U6-GPIO37-Pad34)] of U6",
+                    "pos": {
+                        "x": 123.33,
+                        "y": 91.95
+                    },
+                    "uuid": "8fd598e3-4a4c-48fa-b705-324a2570715c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PTH pad 35 [/EVEN] of U6",
+                    "pos": {
+                        "x": 125.87,
+                        "y": 91.95
+                    },
+                    "uuid": "57ed1081-f698-4941-8535-246a42c03b6f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PTH pad 36 [/ODD] of U6",
+                    "pos": {
+                        "x": 128.41,
+                        "y": 91.95
+                    },
+                    "uuid": "36214869-4dfd-43b8-bbcd-f93ae0a22fb4"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        }
+    ]
+}

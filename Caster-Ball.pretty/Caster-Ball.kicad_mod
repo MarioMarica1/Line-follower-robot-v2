@@ -1,0 +1,157 @@
+(footprint "Caster-Ball"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "996e7b70-2ca1-4afb-bfa6-1911981feeb5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Caster-Ball"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "577a0e6c-5946-43a9-914d-f0e5fe507ccc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "84776673-a697-4c31-b793-d5712b389b89")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b7b21be-3c05-4079-94fe-a5b805115ed4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -10.15 0)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "9b3a5139-5f5a-4f8c-b1bf-3f99adad689e")
+	)
+	(fp_line
+		(start 0 0)
+		(end 10.15 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "62bee426-811c-4c33-a7a0-86a76ea56a3d")
+	)
+	(fp_arc
+		(start -7 3.218092)
+		(mid -10.248651 -0.083186)
+		(end -6.895598 -3.27837)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "a848415d-98fe-4920-bcad-716dfea57abc")
+	)
+	(fp_arc
+		(start 6.895598 -3.247392)
+		(mid 10.24865 -0.052208)
+		(end 7 3.24907)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "37c491bf-a97b-425f-8235-0b5377f24b40")
+	)
+	(fp_circle
+		(center -7.35 0)
+		(end -6.2 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "7da5a007-262d-4f3e-ad6b-5ff5f7296409")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 7.6 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "2e47f1a8-97c9-45ed-b766-40afc9fa5d9b")
+	)
+	(fp_circle
+		(center 7.35 0)
+		(end 8.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "e7d72415-2438-488b-909f-7177afc4b069")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cad65c8c-76c9-49f5-945e-4731616fc2d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/BALL_CASTER_WITH_1_2__PLASTIC_BALL.stp"
+		(offset
+			(xyz 0 0 -4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 180 -0 -0)
+		)
+	)
+)
