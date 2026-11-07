@@ -45,7 +45,6 @@ Designed in **KiCad 10.0**. Project-specific libraries use `${KIPRJMOD}` paths s
 | `docs/` | PCB previews, schematic PDF, and validation reports |
 | `production/` | Existing Gerber archive, BOM, positions, designators, and IPC netlist |
 | `Gerber/Savitar_V1/` | Legacy Savitar fabrication outputs |
-| `Savitar_LFR.kicad_pro` | Legacy project settings retained from the source folder |
 
 ## Design status
 
