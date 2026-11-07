@@ -29,7 +29,7 @@ These previews are generated from the committed PCB and show copper, silkscreen,
 3. Open [`God_of_cheeseLFR.kicad_pro`](God_of_cheeseLFR.kicad_pro) in the KiCad Project Manager.
 4. Open the schematic or PCB from that project.
 
-Although the original working directory was named `9.0`, the design files were saved by **KiCad 10.0**. Project-specific libraries use `${KIPRJMOD}` paths so the project can be opened from a different computer.
+Designed in **KiCad 10.0**. Project-specific libraries use `${KIPRJMOD}` paths so the project can be opened from a different computer.
 
 ## Repository contents
 
