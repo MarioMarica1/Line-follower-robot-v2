@@ -44,7 +44,6 @@ Designed in **KiCad 10.0**. Project-specific libraries use `${KIPRJMOD}` paths s
 | `fp-lib-table`, `sym-lib-table` | Portable project library tables |
 | `docs/` | PCB previews, schematic PDF, and validation reports |
 | `production/` | Existing Gerber archive, BOM, positions, designators, and IPC netlist |
-| `Gerber/Savitar_V1/` | Legacy Savitar fabrication outputs |
 
 ## Design status
 
