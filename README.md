@@ -18,7 +18,7 @@ These previews are generated from the committed PCB and show copper, silkscreen,
 
 ## Schematic
 
-![God of Cheese schematic](docs/God_of_cheeseLFR.svg)
+![God of Cheese schematic with the buck input PWR_FLAG](docs/schematic.png)
 
 [View or download the schematic PDF](docs/schematic.pdf).
 

@@ -7293,7 +7293,7 @@
 		)
 		(property "Value" "PWR_FLAG"
 			(at 134.62 26.67 0)
-			(hide yes)
+			(hide no)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
