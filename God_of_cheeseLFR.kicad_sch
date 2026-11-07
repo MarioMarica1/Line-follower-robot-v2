@@ -3980,6 +3980,12 @@
 		(uuid "487b181d-7619-4a11-b210-f848c9e2dec9")
 	)
 	(junction
+		(at 134.62 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5676b4de-72ee-40e7-ae16-2d0e123e5de9")
+	)
+	(junction
 		(at 166.37 122.555)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4585,7 +4591,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 31.75) (xy 137.16 31.75)
+			(xy 125.73 31.75) (xy 134.62 31.75)
 		)
 		(stroke
 			(width 0)
@@ -5092,6 +5098,16 @@
 			(type default)
 		)
 		(uuid "eec6d251-6feb-4ab0-8e86-fbd50ce18fda")
+	)
+	(wire
+		(pts
+			(xy 134.62 31.75) (xy 137.16 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eed22aee-fc49-4c7d-9f43-110efaa2743b")
 	)
 	(wire
 		(pts
@@ -7247,6 +7263,85 @@
 			(project "God_of_cheeseLFR"
 				(path "/e7fba12d-5388-4e2b-b0e0-88d9e2f526be"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 134.62 31.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e4c8d31-c995-460b-907b-6a4f4f8f6616")
+		(property "Reference" "#FLG02"
+			(at 134.62 29.845 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 134.62 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 134.62 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "02e3d2c5-012b-442d-ba1d-487ac46d35dc")
+		)
+		(instances
+			(project "God_of_cheeseLFR"
+				(path "/e7fba12d-5388-4e2b-b0e0-88d9e2f526be"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)

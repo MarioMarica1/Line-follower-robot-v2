@@ -51,6 +51,8 @@ Designed in **KiCad 10.0**. Project-specific libraries use `${KIPRJMOD}` paths s
 
 This is a hardware design snapshot. See [the validation notes](docs/validation.md) for checks run before publication and the outstanding findings.
 
+The updated schematic includes the input supply `PWR_FLAG` and passes ERC with **0 errors**; 19 connection-grid warnings remain.
+
 The files in `production/` and `Gerber/` are preserved exports supplied with the project; they were **not regenerated** for this upload and their correspondence to the current PCB has not been established. Review the current design and regenerate fabrication outputs before ordering boards. Some BOM entries still contain generic values and empty supplier part numbers.
 
 Local backups, autosaves, editor history, caches, locks, and per-user KiCad settings are excluded from version control.

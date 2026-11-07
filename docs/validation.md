@@ -16,12 +16,13 @@ Checked with **KiCad 10.0.5** on **7 November 2026**.
 
 These are the findings in the supplied design. Upload preparation did not attempt electrical or layout corrections.
 
+The schematic was updated with the author's `PWR_FLAG` on the buck input supply. ERC was rerun on the updated schematic: **0 errors and 19 warnings**. The previous `power_pin_not_driven` error is resolved. The schematic PDF and SVG were regenerated from this version.
+
 | Check | Severity | Type | Count |
 | --- | --- | --- | ---: |
 | DRC | warning | `lib_footprint_mismatch` | 12 |
 | DRC | warning | `silk_over_copper` | 44 |
 | DRC | warning | `silk_overlap` | 50 |
-| ERC | error | `power_pin_not_driven` | 1 |
 | ERC | warning | `endpoint_off_grid` | 19 |
 
 DRC reported **0 unconnected items**. Schematic/PCB parity and zone refill were not requested for this snapshot.
